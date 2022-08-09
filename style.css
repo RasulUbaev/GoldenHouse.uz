@@ -1,0 +1,704 @@
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.color {
+    width: 1503px; 
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgba(49, 100, 153, 0.1); 
+}
+
+.container-footer {
+    width: 1503px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(49, 100, 153, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo-word {
+    font-size: 24px;
+    margin: 0;
+    position: relative;
+    left: 20px;
+}
+
+.logo-word-h3 {
+    margin: 0;
+    color: rgba(0, 0, 0, 1);
+}
+
+.menu-words {
+    text-align: center;
+    position: relative;
+    left: 190px;
+    word-spacing: 20px;
+    font-size: 24px;
+    margin: 0;
+    line-height: 50px;
+    padding: 0;
+}
+
+
+.menu-word {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu-word.home {
+    color: rgba(49, 100, 153, 1);
+    font-weight: 700;
+}
+
+.contact {
+    position: relative;
+    left: 549px;
+    width: 142px;
+    height: 57px;
+    background-color: rgba(49, 100, 153, 1);
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700; 
+}
+
+/* find-yourself */
+
+.find-yourself {
+    display: flex;
+    margin-top: 70px;
+}
+
+.find-tile {
+    width: 532px;
+}
+
+.find-h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+.find-input {
+    background-color: rgba(49, 100, 153, 1);
+    color: #ffffff;
+    width: 156px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+}
+
+.find-p {
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.find-img {
+    padding-left: 68px;
+} 
+
+/* COLOR */
+
+.color {
+    position: relative;
+    bottom: 70px;
+}
+
+/* our-services */
+
+.our-services {
+    position: relative;
+    bottom: 410px;
+}
+
+.our-services-h1 {
+    text-align: center;
+    position: relative;
+    font-size: 28px;
+    margin: 0;
+    color: #316499;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.our-services-h1-2 {
+    margin-top: 0;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.buy-a-home {
+   position: relative;
+   right: 10px; 
+   border: 1px solid rgba(189, 189, 189, 1);
+   width: 410px;
+   height: 440px;
+   text-align: center;
+} 
+
+.buy-a-home-img {
+    position: relative;
+    left: 130px;
+    top: 40px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(49, 100, 153, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.buy-a-home-title {
+    position: relative;
+    top: 65px;
+}
+
+.buy-a-home-h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.buy-a-home-p {
+    font-size: 22px;
+    color: rgba(130, 130, 130, 1);
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.buy-a-home-link {
+    font-size: 20px;
+    color: rgba(49, 100, 153, 1);
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.rent-a-home {
+    width: 410px;
+    height: 440px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    text-align: center;
+}
+
+.rent-a-home-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(49, 100, 153, 1);
+    position: relative;
+    top: 40px;
+    left: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-a-home-title {
+    position: relative;
+    top: 65px;
+}
+
+.rent-a-home-h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.rent-a-home-p {
+    font-size: 22px;
+    color: rgba(130, 130, 130, 1);
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.rent-a-home-link {
+    font-size: 20px;
+    color: rgba(49, 100, 153, 1);
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.become-an-agent {
+    width: 410px;
+    height: 440px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    text-align: center;
+    position: relative;
+    left: 10px;
+}
+
+.become-an-agent-img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgba(49, 100, 153, 1);
+    position: relative;
+    top: 40px;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.become-an-agent-title {
+    position: relative;
+    top: 65px;
+}
+
+.become-an-agent-h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.become-an-agent-p {
+    font-size: 22px;
+    color: rgba(130, 130, 130, 1);
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.become-an-agent-link {
+    font-size: 20px;
+    color: rgba(49, 100, 153, 1);
+    line-height: 55px;
+    font-weight: 600;
+}
+
+/* NEW LISTED PROPERTIES */
+
+.new-listed-properties {
+    position: relative;
+    bottom: 250px;
+}
+
+.new-listed-properties-title {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    color: #316499;
+    line-height: 90px;
+    font-weight: 500;
+}
+
+.new-listed-properties-title-h1 {
+    margin-bottom: 60px;
+}
+
+.new-listed-properties-title-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.victoria-island-lagos {
+    width: 410px;
+    height: 440px;
+    border: 1px solid rgba(49, 100, 153, 1);
+}
+
+.victoria-island-lagos-img {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.victoria-island-lagos-p {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.victoria-island-lagos-link {
+    position: relative;
+    top: 70px;
+    left: 25px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 35px;
+    color: rgba(49, 100, 153, 1);
+}
+
+.victoria-island-lagos-icon {
+    position: relative;
+    left: 215px;
+    top: 72px;
+}
+
+.tashkent-hotel-uzbekistan {
+    width: 410px;
+    height: 440px;
+    border: 1px solid rgba(49, 100, 153, 1);
+}
+
+.tashkent-hotel-uzbekistan-img {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.tashkent-hotel-uzbekistan-p {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.tashkent-hotel-uzbekistan-link {
+    position: relative;
+    top: 70px;
+    left: 25px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 35px;
+    color: rgba(49, 100, 153, 1);
+}
+
+.tashkent-hotel-uzbekistan-icon {
+    position: relative;
+    left: 215px;
+    top: 72px;
+}
+
+.pinnock-island-lagos {
+    width: 410px;
+    height: 440px;
+    border: 1px solid rgba(49, 100, 153, 1);
+}
+
+.pinnock-island-lagos-img {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.pinnock-island-lagos-p {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.pinnock-island-lagos-link {
+    position: relative;
+    top: 70px;
+    left: 25px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 35px;
+    color: rgba(49, 100, 153, 1);
+}
+
+.pinnock-island-lagos-icon {
+    position: relative;
+    left: 215px;
+    top: 72px;
+}
+
+.see-all {
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+
+}
+
+.see-all-input {
+    padding: 15px 70px;
+    font-size: 30px;
+    border-radius: 50px;
+    color: #316499;
+    border: 1px solid rgba(49, 100, 153, 1);
+    background-color: #ffffff; 
+    font-weight: 550;
+}
+
+/* OUR BLOG */
+
+.our-blog {
+    text-align: center;
+    font-size: 22px;
+    color: rgba(49, 100, 153, 1);
+}
+
+.our-blog-h1 {
+    margin-bottom: 60px;
+}
+
+.why-live-in-lagos {
+    display: flex;
+}
+
+.why-live-in-lagos-div {
+    width: 550px;
+    height: 750px;
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+
+.why-live-in-lagos-title {
+    position: relative;
+    left: 35px;
+    
+}
+
+.why-live-in-lagos-h3 {
+    width: 400px;
+    font-size: 33px;
+    line-height: 60px;
+    margin: 0;
+    position: relative;
+    top: 15px;
+}
+
+.why-live-in-lagos-p {
+    color: rgba(130, 130, 130, 1);
+    font-size: 20px;
+}
+
+.why-live-in-lagos-p2 {
+    color: rgba(130, 130, 130, 1);
+    font-size: 22px;
+}
+
+.why-live-in-lagos-link {
+    font-size: 25px;
+    color: rgba(49, 100, 153, 1);
+    font-weight: 550;
+    line-height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+.sultan-hotel {
+    position: relative;
+    left: 200px;
+    width: 550px;
+    height: 750px;
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+
+.sultan-hotel-title {
+    position: relative;
+    left: 35px;
+}
+
+.sultan-hotel-h4 {
+    width: 400px;
+    font-size: 33px;
+    line-height: 60px;
+    margin: 0;
+    position: relative;
+    top: 15px;
+}
+
+.sultan-hotel-p {
+    color: rgba(130, 130, 130, 1);
+    font-size: 20px;
+}
+
+.sultan-hotel-p2 {
+    color: rgba(130, 130, 130, 1);
+    font-size: 22px;
+}
+
+.sultan-hotel-link {
+    font-size: 25px;
+    color: rgba(49, 100, 153, 1);
+    font-weight: 550;
+    line-height: 40px;
+    position: relative;
+    top: 15px;
+}
+
+
+/* clients-testimonials */
+
+.clients-testimonials {
+    position: relative;
+    top: 130px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.clients-testimonials-h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(49, 100, 153, 1);
+    line-height: 90px;
+    font-weight: 700;
+}
+
+.clients-testimonials-items {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ronaldo-img-border {
+    border-radius: 50%;
+}
+
+.ronaldo-h4 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+
+.ronaldo-p {
+    color:rgba(130, 130, 130, 1);
+    line-height: 45px;
+    margin: 0;
+}
+
+.ronaldo-stars {
+    color: rgba(255, 165, 0, 1)
+}
+
+.ronaldo-p2 {
+    color: rgba(130, 130, 130, 1);
+    line-height: 25px;
+}
+
+.zidan-img-border {
+    border-radius: 50%;
+}
+
+.zidan-h4 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+
+.zidan-p {
+    color:rgba(130, 130, 130, 1);
+    line-height: 45px;
+    margin: 0;
+}
+
+.zidan-stars {
+    color: rgba(255, 165, 0, 1)
+}
+
+.zidan-p2 {
+    color: rgba(130, 130, 130, 1);
+    line-height: 25px;
+}
+
+.benzema-img-border {
+    border-radius: 50%;
+}
+
+.benzema-h4 {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0;
+}
+
+.benzema-p {
+    color:rgba(130, 130, 130, 1);
+    line-height: 45px;
+    margin: 0;
+}
+
+.benzema-stars {
+    color: rgba(255, 165, 0, 1)
+}
+
+.benzema-p2 {
+    color: rgba(130, 130, 130, 1);
+    line-height: 25px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    left: 102px;
+    top: 100px;
+}
+
+.goldenlink {
+    color: #ffffff;
+    font-size: 32px;
+    text-decoration: none;
+    position: relative;
+    top: 100px;
+}
+
+.useful-links-h4 {
+    font-size: 28px;
+}
+
+.useful-links-li {
+    list-style: none;
+    margin: 10px;
+    position: relative;
+    right: 50px;
+    font-size: 22px;
+} 
+
+.service-h4 {
+    font-size: 28px;
+}
+
+.service-li {
+    list-style: none;
+    margin: 10px;
+    position: relative;
+    right: 45px;
+    font-size: 22px;
+}
+
+.contact-h4 {
+    font-size: 28px;
+}
+
+.adress {
+    font-size: 20px;
+}
